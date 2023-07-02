@@ -18,8 +18,6 @@ function App() {
             cartList[index].quantity += action.payload.quantity;
           }
 
-          const total = calculate(cartList);
-
           return { ...state, cartList, total: calculate(cartList) };
 
         case "REMOVE_CART_ITEM":
