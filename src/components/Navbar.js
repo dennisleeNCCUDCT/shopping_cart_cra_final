@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-body-tertiary">
       <div className="container-fluid">
-        <a className="navbar-brand">甜點蛋糕店</a>
+        <h1 className="navbar-brand">甜點蛋糕店</h1>
 
         <button
           className="btn btn-outline-dark position-relative"
